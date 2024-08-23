@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  
+}
+.app{
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.box{
+  width: 500px;
+  height:  500px;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+  font-style: italic;
+  font-weight: 500;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.yester-day  .box {
+    background-color: #75D7F0;
+    color: #FAFBFC;
+}
+.today .box{
+  background-color: #D9B8FF;
+  position: relative;
+  color: #F4E8FF;
+}
+button{
+  padding: 10px 20px;
+  background-color: red;
+  position: absolute;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  top: 89%;
+  right: 10px;
+  cursor: pointer;
+}
+.blockers .box{
+  background-color: #FFAFA4;
+  margin-top: 3rem;
+  color: #be776a;
+}
+input{
+  width: 50%;
+  height: 3.9vh;
+  background-color: #E3CCFF;
+  border:  none ;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+input:focus {
+  outline: none;
+}
+
